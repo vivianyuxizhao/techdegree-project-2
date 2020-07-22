@@ -155,11 +155,12 @@ a:hover {
 
 .social-media ul li {
     padding: 20px;
-    font-size: 1.2em;
-    overflow-y: none;
+    font-size: 1.1em;
+    overflow-y: visible;
     padding-right: 10px;
     margin-right: 10px;
-    font-size: 1.1em;
+
+}
 
 .card {
     padding: 35px;
@@ -206,7 +207,7 @@ footer ul {
 
 /* Media Queries for 768/1024px both */
 @media (min-width: 768px),
-@media (min-width: 1024px) {
+(min-width: 1024px) {
 
     .non-mobile,
     .non-mobile li{
@@ -283,7 +284,7 @@ footer ul {
 @media (min-width: 1024px) {
     .name,
     .nav,
-    .nav li, {
+    .nav li {
         display: inline;
     }
 
