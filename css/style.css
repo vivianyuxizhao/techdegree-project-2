@@ -151,14 +151,15 @@ a:hover {
     list-style-type: none;
     text-align: center;
     padding: 30px;
-    overflow: scroll;
 }
 
 .social-media ul li {
-    display: inline-block;
     padding: 20px;
     font-size: 1.2em;
-}
+    overflow-y: none;
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 1.1em;
 
 .card {
     padding: 35px;
